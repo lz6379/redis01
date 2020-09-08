@@ -9,6 +9,7 @@ public class User {
     private int id;
     private String name;
     private String pass;
+    private String email;
 
     public User() {
     }
@@ -29,6 +30,14 @@ public class User {
 
     public String getName() {
         return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public void setName(String name) {
